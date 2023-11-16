@@ -1,5 +1,5 @@
 module.exports = {
 
-    publicPath : "/schoolFoodSite"
+    publicPath : "/vueSchoolfood"
 
 }

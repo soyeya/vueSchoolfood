@@ -38,7 +38,7 @@ export default{
   
    async created(){
 
-        const {data} = await axios.get("/schoolFoodSite/json/List.json");
+        const {data} = await axios.get("/vueSchoolfood/json/List.json");
         this.foods = data;
         this.searchFoods = data;
         

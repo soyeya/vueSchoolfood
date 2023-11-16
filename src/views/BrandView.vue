@@ -101,7 +101,7 @@ import Vuetify from 'vue'
 
      async created() {
         
-         const {data} = await axios.get("/schoolFoodSite/json/Brand.json"); //json영역은 public에 둘 것
+         const {data} = await axios.get("/vueSchoolfood/json/Brand.json"); //json영역은 public에 둘 것
          this.iconbox1 = data.iconBox1;
          this.infobox1 = data.infoBox1;
          this.iconbox2 = data.iconBox2;
